@@ -1,0 +1,29 @@
+/*
+ Localizable.strings
+ paymaker
+ 
+ Created by Alex Severyanov on 13/04/2017.
+ Copyright © 2017 CREALOGIX Digital Payment. All rights reserved.
+ */
+"general.menu.open_db_manager" = "Open DataBase Manager";
+"general.menu.check_updates" = "Check For Updates...";
+
+"welcome.name_app" = "Welcome to PayMaker";
+"welcome.version" = "Version 2.0";
+"welcome.create_new.title" = "Create new";
+"welcome.create_new.details" = "Create new database and save it for working with payments";
+"welcome.load_old.title" = "Load old";
+"welcome.load_old.details" = "Load database from previous version of the PayMaker";
+"welcome.load_existed.title" = "Load existed";
+"welcome.load_existed.details" = "Load existed database from this computer";
+"welcome.display_this_window" = "Show this window when PayMake launches";
+//Preferences
+"preferences.general" = "General";
+"preferences.updates" = "Updates";
+
+"preferences.updates.application" = "Application";
+"preferences.updates.application.check_updates" = "Check if update is available";
+"preferences.updates.bank_data" = "Download data when application starts";
+"preferences.updates.bank_data.directory" = "Directory of Swiss banks";
+"preferences.updates.bank_data.postal_codes" = "Postal codes";
+"preferences.updates.bank_data.download_now" = "Download now";
