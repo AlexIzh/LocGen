@@ -4,7 +4,7 @@ Code generation for Localizable.strings file for Swift
 This application generates constants with keys from Localizable.strings file. 
 If you don't need to use `R.swift` or `SwiftGen` but just need to have constants from your Localizable.strings, you can try this app!
 
-It will generate namespaces from your constants, so, for such strings "GENERAL_BTN_OK" you will not have `.general_btn_ok` constant, but `General.Btn.ok`.
+It will generate namespaces from your constants, so, for such strings as "GENERAL_BTN_OK" you will not have `.general_btn_ok` constant, but `General.Btn.ok`.
 
 # How it works
 
