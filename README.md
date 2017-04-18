@@ -48,3 +48,9 @@ Where:<br/>
 `-o`: Output file where generated strings should be placed. Default value is Localizable.swift in current directory.<br/>
 `-cs`: String with characters which should be used for separating modules. Default is \".\"<br/>
 `-so`: Support output file. IF this file exists already, this application will not replace it. This file contains default implementation for `localized` function. You can change it if you have another localization logic (for example, get translation from specific table). Default value is Localiztions+Strings.swift in current directory.
+
+# Integrate to Xcode
+You can add this app to directory with your project and add new script to `Build Phases` before `Compile Sources`.
+`Shell: /bin/sh`<br/>
+Example: `./locgen -i project/Resources/en.lproj/Localizable.strings -o project/Sources/View/Utils/Localizations.swift -so project/Sources/View/Utils/Localizations+String.swift`<br/>
+So, your constants will be always updated and you will know, if some strings are changed.
