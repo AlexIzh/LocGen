@@ -17,7 +17,7 @@ For example:
 
 Also, it will generates `localized` function for these contants. By default it just contains `NSLocalizedString(rawValue, comment: "")`, but you can override it as you want. 
 
-Example generated enums: 
+Example of generated enums: 
 
 ```swift
 
