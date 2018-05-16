@@ -6,18 +6,18 @@ If you don't need to use `R.swift` or `SwiftGen` but just need to have constants
 
 It will generate namespaces from your constants, so, for such strings as "GENERAL_BTN_OK" you will not have `.general_btn_ok` constant, but `General.Btn.ok`.
 
-You can do the same with SwiftGen and templates. Probably it will be better for using, such as it can generates code for another resources also.
+You can do the same with SwiftGen and templates. Probably it will be better for using, such as it can generates code for another resources as well.
 
 # How it works
 
-This app parses .strings file and separating key by your separator (you can set up it with `-sc` flag, by default is `.`) and generates enums with keys. 
+This app parses .strings file and separates keys by your separator (you can set up it with `-sc` flag, by default is `.`) and generates enums with the keys. 
 
 For example:
 
 `GENERAL_BTN_OK` -> `Localizations.General.Btn.ok`<br/>
 `preferences.updates.last_update` -> `Localizations.Preferences.Updates.last_update`
 
-Also, it will generates `localized` function for these contants. By default it just contains `NSLocalizedString(rawValue, comment: "")`, but you can override it as you want. 
+Also, it will generates `localized` function for these constants. By default it just contains `NSLocalizedString(rawValue, comment: "")`, but you can override it as you want. 
 
 Example of generated enums: 
 
